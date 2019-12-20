@@ -3,10 +3,7 @@
     "url": "https://github.com/tanyo520/react-native-file-opener-edoc2/issues"
   },
   "contributors": [
-    {
-      "name": "tanyo",
-      "email": "yong.tian@macrowing.com"
-    }
+    "tanyo <yong.tian@macrowing.com>"
   ],
   "dependencies": {},
   "description": "A React Native module that allows you to open a file (mp3, mp4, pdf, word, excel, dwg etc.) on your device with its default application",
@@ -34,18 +31,19 @@
   "license": "MIT",
   "main": "react-native-file-opener.js",
   "maintainers": [
-    {
-      "name": "tanyo",
-      "email": "yong.tian@macrowing.com"
-    }
+    "tanyo <yong.tian@macrowing.com>"
   ],
-  "name": "react-native-file-opener-edoc2",
+  "name": "react-native-file-opener-edoc2-bf",
   "nativePackage": true,
   "optionalDependencies": {},
   "publish_time": 1506021268302,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tanyo520/react-native-file-opener-edoc2.git"
+    "url": "git+https://github.com/llwdslal/react-native-file-opener-edoc2.git"
   },
-  "version": "0.2.2"
+  "version": "0.2.2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
 }
