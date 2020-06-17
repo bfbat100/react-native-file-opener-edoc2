@@ -13,7 +13,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-
+import android.widget.Toast;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContext;
@@ -578,7 +578,7 @@ public class FileOpener extends ReactContextBaseJavaModule {
                     try {
                         getReactApplicationContext().startActivity(intent);
                     } catch (Exception e) {
-                        getReactApplicationContext().startActivity(showOpenTypeDialog(filesPath));
+                        Toast.makeText(getReactApplicationContext(),"您未安装可以打开此文件的应用",Toast.LENGTH_SHORT).show();
                     }
                 } else {
                     getReactApplicationContext().startActivity(showOpenTypeDialog(filesPath));
